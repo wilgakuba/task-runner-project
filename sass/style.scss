@@ -1,0 +1,72 @@
+$color-main: #fed136;
+$color-one: #ffffff;
+
+/*Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+.button {
+    text-align: center;
+    button {
+    height: 65px;
+    width: 240px;
+    color: $color-one;
+    background: $color-main;
+    font-size: 24px;
+    border: none;
+    text-transform:uppercase;
+    border-radius: 4px;
+    }
+}
+
+/* Header */
+.header {
+    background-image: url("https://www.shoper.pl/wp-content/uploads/2015/12/produkty-powiazane.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    min-width: 1024px;
+    width: 100%;
+    background-position: center;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 30px 10%; 
+}
+  
+  li, a {
+    color: $color-one;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 20px; 
+}
+.nav img {
+    display: inline-block;
+
+}
+.logo {
+    font-size: 28px;
+    color: $color-main;
+}
+.page-title {
+    color: $color-one;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 1.5;
+    font-size: 40px;
+    span {
+        font-size: 75px;
+    }
+    
+}

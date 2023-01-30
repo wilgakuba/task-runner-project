@@ -1,3 +1,74 @@
+/*Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+.button {
+  text-align: center;
+}
+.button button {
+  height: 65px;
+  width: 240px;
+  color: #ffffff;
+  background: #fed136;
+  font-size: 24px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/* Header */
+.header {
+  background-image: url("https://www.shoper.pl/wp-content/uploads/2015/12/produkty-powiazane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  min-width: 1024px;
+  width: 100%;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 10%;
+}
+
+li, a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav img {
+  display: inline-block;
+}
+
+.logo {
+  font-size: 28px;
+  color: #fed136;
+}
+
+.page-title {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 100px;
+  line-height: 1.5;
+  font-size: 40px;
+}
+.page-title span {
+  font-size: 75px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFHQSxVQUFBO0FBQ0E7RUFDSSxzQkFBQTtFQUNBLFNBQUE7RUFDQSxVQUFBO0FDRko7O0FESUE7RUFDSSxrQkFBQTtBQ0RKO0FERUk7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLGNBYlE7RUFjUixtQkFmUztFQWdCVCxlQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0Esa0JBQUE7QUNBSjs7QURJQSxXQUFBO0FBQ0E7RUFDSSxnR0FBQTtFQUNBLDRCQUFBO0VBQ0Esc0JBQUE7RUFDQSxhQUFBO0VBQ0EsaUJBQUE7RUFDQSxXQUFBO0VBQ0EsMkJBQUE7QUNESjs7QURHQTtFQUNJLGFBQUE7RUFDQSw4QkFBQTtFQUNBLHVCQUFBO0VBQ0EsaUJBQUE7QUNBSjs7QURHRTtFQUNFLGNBeENRO0VBeUNSLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSx5QkFBQTtFQUNBLHNCQUFBO0VBQ0EscUJBQUE7RUFDQSxxQkFBQTtFQUNBLHFCQUFBO0VBQ0EsZUFBQTtBQ0FKOztBREVBO0VBQ0kscUJBQUE7QUNDSjs7QURFQTtFQUNJLGVBQUE7RUFDQSxjQTNEUztBQzREYjs7QURDQTtFQUNJLGNBN0RRO0VBOERSLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxnQkFBQTtFQUNBLGVBQUE7QUNFSjtBRERJO0VBQ0ksZUFBQTtBQ0dSIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */
