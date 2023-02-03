@@ -117,6 +117,13 @@ $color-one: #ffffff;
     }
 }
 /* Portfolio */
+.portfolio {
+    background-color: #f7f7f7;
+    .page-subtitle {
+        padding: 40px;       
+    }
+}
+
 
 .card img {
     width: 100%;
@@ -127,6 +134,10 @@ $color-one: #ffffff;
     margin-bottom: 15px;
     
 }
-.card-body .page-subtitle {
+.card-body {
     margin-top: 5px;
+    text-align: center;
+    p {
+        color: #777777;
+    }
 }
