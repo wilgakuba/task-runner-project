@@ -38,7 +38,7 @@ $color-one: #ffffff;
     padding: 30px 10%; 
 }
   
-  li, a {
+  .nav-links  a {
     color: $color-one;
     font-size: 18px;
     font-weight: 700;
@@ -47,9 +47,11 @@ $color-one: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.35px;
     text-decoration: none;
+    padding: 0 20px; 
+}
+.nav-links li {
     list-style-type: none;
     display: inline-block;
-    padding: 0 20px; 
 }
 .nav img {
     display: inline-block;
@@ -123,8 +125,6 @@ $color-one: #ffffff;
         padding: 40px;       
     }
 }
-
-
 .card img {
     width: 100%;
     height: 300px;
@@ -139,5 +139,29 @@ $color-one: #ffffff;
     text-align: center;
     p {
         color: #777777;
+    }
+}
+/* Footer */
+footer {
+    height:70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .copy-text {
+        margin-right: 60px;
+    }
+    .icons {
+        position: relative;
+    }
+    i {
+        width: 41px;
+        height: 40px;
+        background-color: #222222;
+        border-radius: 50%;
+        color: $color-one;
+        text-align: center;
+        font-size: 24px;        
+        padding: 8px;
     }
 }
